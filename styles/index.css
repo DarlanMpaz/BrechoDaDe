@@ -1,0 +1,174 @@
+#app header h1 {
+    height: 260px;
+    background: linear-gradient(301.9deg, #c93da1 0%, #c42466 100%), url("../assets/Details-header.svg");
+    text-align: center;
+    margin: 0;
+}
+
+#app header h1 img {
+    padding: 40px 0;
+    height: 188px;
+}
+
+#app header .intro {
+    width: 95%;
+    height: 150px;
+    margin: 0 auto;
+    padding: 55px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#app header .intro p {
+    font-size: 22px;
+    padding: 0 5%;
+    color: #353535;
+}
+
+#app header .intro p::first-letter {
+    font-size: 26px;
+}
+
+#app header .intro a {
+    width: 230px;
+    height: 55px;
+    line-height: 55px;
+    color: white;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #FF4DCD 0%, #FE2F86 100%);
+    transition: 100ms;
+}
+
+#app header .intro a:hover {
+    filter: grayscale(.3);
+}
+
+#app header .intro a::before {
+    content: " ";
+    display: inline-block;
+    padding: 0 3px;
+    width: 15px;
+    height: 15px;
+    background: url("../assets/Whatsapp-line-icon.svg");
+    background-repeat: no-repeat;
+}
+
+#app main {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#app main .titulo-servicos {
+    font-weight: 700;
+    margin: 0 0 20px;
+}
+
+#app main ul li {
+    max-width: 530px;
+    padding: 20px 30px;
+    border: 0.3px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+    transition: 100ms background;
+    margin-bottom: 20px;
+}
+
+#app main ul li:hover {
+    background: #fddcdc;
+}
+
+#app main ul li:hover .preco{
+    color: #414141;
+}
+
+#app main ul li img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#app main ul li p {
+    line-height: 1.5em;
+}
+
+#app main ul li .nome {
+    font-weight: 700;
+}
+
+#app main ul li .tamanho {
+    font-size: .8em;
+    font-weight: lighter;
+}
+
+#app main ul li .preco {
+    font-size: .9em;
+    color: #949494;
+    margin-top: 20px
+}
+
+#app footer {
+    height: 300px;
+    background: #323232;
+    text-align: center;
+}
+
+#app footer ul {
+    padding: 8% 0 6%;
+}
+
+#app footer ul li {
+    padding: 20px;
+}
+
+#app footer ul li p {
+    line-height: 2em;
+    font-size: 16px;
+    color: #9E9E9E;
+    font-weight: bold;
+}
+
+#app footer ul li p:first-child {
+    color: #6D6D6D;
+    font-weight: normal;
+}
+
+#app footer ul li .whatsapp:before {
+    content: " ";
+    display: inline-block;
+    padding: 0 5px;
+    width: 1.5em;
+    height: 1.5em;
+    background: url("../assets/Whatsapp-icon.svg");
+    background-repeat: no-repeat;
+
+}
+
+#app footer ul li .endereco:before {
+    content: " ";
+    display: inline-block;
+    padding: 0 5px;
+    width: 1em;
+    height: 1.1em;
+    background: url("../assets/Place-icon.svg");
+    background-repeat: no-repeat;
+
+}
+
+#app footer .line{
+    width: 50%;
+    border-bottom: 1px solid #131313;
+    margin: 0 auto;
+}
+
+#app footer .copy {
+    font-size: 14px;
+    color: #9E9E9E;
+}
